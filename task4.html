@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,select,td{
+            height:25px;
+            width: 190px;
+            font-size:20px;
+            font-style:normal;
+        }
+
+    </style>
+</head>
+<body  style= "font-size:20px">
+    <table style="border:1px solid black" width="100%" cellpadding="5">
+        <tr >
+            <td>
+    <label for="Firstname">Full Name:</label>
+            </td>
+            <td>
+    <input type="text" name="Firstname"  ><br/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+    <label for="Lastname">Username:</label>
+    </td>
+    <td>
+    <input type="text" name="Lastname"><br/>
+    </td>
+   </tr>
+    <tr>
+        <td>
+    <label for="password">Password</label>
+        </td>
+        <td>
+    <input type="password" name=" password"><br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+    <label for="re-password">Re-Password</label>
+    </td>
+    <td>
+    <input type="password" name=" re-password"><br/>
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+    <label for name="addr">Address</label>
+    </td>
+    <td>
+    <textarea name="addr" rows="3"cols="20"></textarea><br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+    <label for="age">Age</label>
+    </td>
+    <td>
+    <input type="num" name="age" min="0" max="100" ><br/>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+        <label for="gender">Gender</label>
+        </td>
+        <td>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+</td>
+</tr>
+
+    </table>
+</body>
+</html>
